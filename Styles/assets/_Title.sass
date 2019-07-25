@@ -1,0 +1,35 @@
+
+.title-body
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px
+  height: 60px;
+
+.title-body-p
+  display: flex;
+  width: 100%;
+  overflow-x: scroll
+
+.title-body-p > span
+  display: flex;
+  min-width: 200px
+  transition: .3s;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  height: 60px;
+  flex: 1;
+  border-radius: 6px;
+  box-shadow: 0 0 3px 1px #eee;
+  margin: 5px;
+  cursor: pointer
+  text-overflow: ellipsis
+
+
+
+.title-body-p > span:hover
+  flex: 3;
+  box-shadow: 0 0 10px 1px rgba(232, 74, 95, .28);
+  
